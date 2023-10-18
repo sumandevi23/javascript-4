@@ -77,10 +77,7 @@ let day = prompt('Enter the day')
 if (day == 'monday' || day == 'tuseday' || day == 'wednesday' || day == 'thursday' || day == 'friday' ){
     console.log('working day')
 }
-else if (day == 'saturday'){
-    console.log('weekend')
-}
-else if (day == 'sunday'){
+else if (day == 'saturday' || day == 'sunday'){
     console.log('weekend')
 }
 else{
@@ -100,16 +97,7 @@ if (month == 'january' || month == 'march' || month == 'may' || month == 'july' 
 else if (month == 'febuary'){
     console.log('29 days')
 }
-else if (month == 'april'){
-    console.log('30 days')
-}
-else if (month == 'june'){
-    console.log('30 days')
-}
-else if ( month == 'september'){
-    console.log('30 days')
-}
-else if (month == 'november'){
+else if (month == 'april'|| month == 'june' || month == 'september' || month == 'november'){
     console.log('30 days')
 }
 else {
